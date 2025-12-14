@@ -1,9 +1,9 @@
 export default function SignIn () {
   return (
-    // test
+    // test d
     <div className=" bg-white flex justify-center items-center min-h-screen">
       <div  className="shadow-xl  p-6 bg-gray-300 w-96">
-        <label  className="text-3xl font-bold text-gray-800 block mb-6   justify-center item-center flex">Create Account</label>
+        <label  className="text-3xl font-bold text-gray-800 block mb-6   justify-center item-center">Create Account</label>
 <label className="block text-semibold text-3xl">Username</label>
 <input type="text" placeholder="Username" className=" w-full border rounded p-2 focus:ring-2 ring-blue-400 outline-none mb-2" />
 <label  className="block text-semibold text-3xl">Password</label>

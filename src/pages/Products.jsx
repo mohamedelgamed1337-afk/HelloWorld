@@ -15,9 +15,9 @@ export default function Products() {
     }, [])
 if (loading) return (<h1>loading...</h1>)
     return (
-    <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 flex space-x-2 m-4 m-top-0   ">
+    <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-x-2 m-4 m-top-0   ">
         {products.map((p) => (
-            <div className="  relative flex border rounded  grid grid-cols-2">
+            <div className="  relative flex border rounded grid-cols-2">
         <div>{<img src={p.thumbnail}  alt={p.title}/>}</div>
         <div>
         <h1 className="mt-10 text-bold font-semibold">{p.title}</h1>
