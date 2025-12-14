@@ -11,6 +11,7 @@ export default function Navbar() {
         <Link to="/" className="text-red-400 hover:text-red-300 border rounded-full hover:bg-white w-15 flex justify-center">Home</Link>
         <Link to="/product" className="text-red-400 hover:text-red-300 border rounded-full hover:bg-white w-20 flex justify-center">Product</Link>
       </div>
+        <Link  to="/signin" className="border rounded-full w-20 flex justify-center hover:bg-white bg-green-600">Sign In</Link>
     </div>
   );
 }

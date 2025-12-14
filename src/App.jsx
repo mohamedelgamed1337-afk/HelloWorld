@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Products from "./pages/Products.jsx";
-
+import SignIn from "./pages/SignIn.jsx";
 export default function App() {
   return (
     <Router>
@@ -11,6 +11,24 @@ export default function App() {
       <Routes>
         <Route  path="/" element={<Home />} />
         <Route path="/product" element={<Products />}/>
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+        <Route  path="/signin" element={<SignIn />}></Route>
       </Routes>
     </Router>
   );

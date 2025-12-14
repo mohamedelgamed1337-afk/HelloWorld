@@ -24,7 +24,7 @@ if (loading) return (<h1>loading...</h1>)
         <div    className="flex justify-between w-30 text-2xl mt-2 ml-10 gap-4">
         <span   className="text-muted line-through text-red-500 opacity-50">{p.price}</span><p  className="text-green-500 inline font-bold">${(p.price * 0.7).toFixed(2)}</p>
         </div>
-        <Link className=" flex justify-center items-center ml-5 mt-5 border bg-blue-100 text-black border-black rounded-full w-40 h-10 z-20">Add to card</Link>
+        <Link className=" hover:bg-white flex justify-center items-center ml-5 mt-20 border bg-blue-100 text-black border-black rounded-full w-40 h-10 z-20 ">Add to card</Link>
                 <span   className="text-amber-500 flex justify-center   absolute top-0 left-1/2 -translate-x-1/2 border rounded-full  w-20 z-10">{p.availabilityStatus}</span>
         
         </div>
