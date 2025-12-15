@@ -3,7 +3,7 @@ export default function Home() {
   <div
    className="p-4"
    >
-    Home Page
+    <button className="border rounded">dd</button>
    </div>
   )
 }
